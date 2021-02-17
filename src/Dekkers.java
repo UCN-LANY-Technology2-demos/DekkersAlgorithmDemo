@@ -9,6 +9,7 @@ public class Dekkers {
 		Producer prod = new Producer(buffer, mutex);
 		Consumer cons = new Consumer(buffer, mutex);
 		
+		// Starting both threads		
 		prod.start();
 		cons.start();
 	}
