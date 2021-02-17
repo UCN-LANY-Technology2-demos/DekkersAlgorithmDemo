@@ -3,6 +3,8 @@
 // Producers run method controls a producer thread that stores 
 // values from 1 to 4 in a shared location
 
+// Another test comment
+
 public class Producer extends Thread {
 	
 	private IBuffer buffer; // reference to shared object
